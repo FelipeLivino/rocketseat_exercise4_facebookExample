@@ -27,3 +27,78 @@ body{
     font-size: 14px;
 
 }
+
+.PostListDiv{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.postItemMainDiv{
+    margin-top: 15px;
+    max-width: 70%;
+    min-width: 60%;
+    border-radius: 5px;
+    background-color: white;
+}
+
+.postItemUserInfo{
+    display: flex;
+    margin-bottom: 15px;
+}
+
+.postItemUserNameDiv{
+    margin-left: 6px;
+    display: grid;
+}
+
+.postItemUserName{
+    font-size: 15px;
+}
+
+.postItemData{
+    font-size: 10px;
+    color: silver;
+}
+
+.postItemFooter{
+    height: 10px;
+}
+
+.postItemComment{
+    margin-left: 6px;
+    margin-top: 20px;
+}
+
+.divisorLine{
+    background-color: silver;
+    margin-top: 15px;
+    margin-bottom: 20px;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 78%;
+    height: 2px;
+}
+
+.CommentItemDiv{
+    display: flex;
+}
+
+.CommentItemInternDiv{
+    background-color: rgb(238,238,238);
+    width: 90%;
+    border-radius: 6px;
+}
+
+.CommentItemInternDivName{
+    margin-left: 4px;
+    margin-top: 6px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.CommentItemInternDivComment{
+    margin-left: 4px;
+}
